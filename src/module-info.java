@@ -1,5 +1,6 @@
-/** Módulo del chat asíncrono. */
- 
-
+/**
+ * Módulo del chat asíncrono.
+ */
 module ChatAsincronoConcurrente {
+    exports chat;
 }

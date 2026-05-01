@@ -3,15 +3,18 @@ package chat;
 import java.io.IOException;
 import java.net.Socket;
 
-/**
- * Punto de entrada para el cliente de chat.
- * <p>
- * Establece una conexión TCP con el servidor y arranca dos hilos: uno para
- * enviar (lectura de teclado) y otro para recibir mensajes.
- *
- * @param args argumentos de la línea de comandos (no usados)
- */
+
 public class client {
+	
+	/**
+	 * Punto de entrada para el cliente de chat.
+	 * <p>
+	 * Establece una conexión TCP con el servidor y arranca dos hilos: uno para
+	 * enviar (lectura de teclado) y otro para recibir mensajes.
+	 *
+	 * @param args argumentos de la línea de comandos (no usados)
+	 */
+	
 	public static void main(String[] args) {
 		String host = "localhost";
 		int puerto = 5000;
