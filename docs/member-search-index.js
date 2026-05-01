@@ -1,1 +1,1 @@
-memberSearchIndex = [];updateSearchResults();
+memberSearchIndex = [{"p":"chat","c":"server","l":"main(String[])","u":"main(java.lang.String[])","k":"6"},{"p":"chat","c":"server","l":"server()","u":"%3Cinit%3E()","k":"3"}];updateSearchResults();
